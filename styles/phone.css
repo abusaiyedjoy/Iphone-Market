@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section  */
+
+main {
+  margin: 15px 5%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+  padding: 15px 5%;
+  background: #fff;
+}
+nav h3 {
+  font-weight: 900;
+  font-size: 25px;
+  letter-spacing: 2px;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, #8e2de2 0%, #4a00e0);
+}
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+nav div ul li {
+  text-decoration: none;
+  list-style: none;
+}
+nav div ul li:hover {
+  cursor: pointer;
+  color: #9003fc;
+}
+.button {
+  color: #fff;
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #8e2de2 0%, #4a00e0 100.02%)
+  );
+  transition: 1s;
+}
+.button:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+/* Banner Section */
+
+
+.circle{
+  height: 400px;
+  width: 400px;
+  background: #6826f6;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -10;
+}
+.img img{
+  position: relative;
+  right: -70px;
+  top: -50px;
+  z-index: -5;
+}
+
+.banner {
+  display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.text {
+  margin-top: 137px;
+  gap: 20px;
+  width: 50%;
+}
+.img {
+  margin-top: 120px;
+  width: 50%;
+  display: flex;
+  margin-left: 250px;
+}
+.banner h1 {
+  width: 478px;
+  color: var(--Dark-01, #100f0f);
+  font-size: 65px;
+  font-weight: 700;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, #ab57f5, #5706f9);
+}
+.banner p {
+  width: 585px;
+  margin-bottom: 20px;
+  color: var(--Dark-03, #706f6f);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/*Main Section  */
+
+main h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, #b971f9 0%, #5706f9, #b971f9);
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  padding: 30px;
+  gap: 20px;
+  border: 2px solid var(--Dark-05, #949090);
+  border-radius: 15px;
+}
+.box img {
+  width: 172px;
+  height: 243px;
+}
+.box h3 {
+  color: #403f3f;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.box p {
+  text-align: center;
+}
+
+/* Footer Section */
+
+footer {
+  background: #f4f2f2;
+  padding: 0% 8%;
+  margin-top: 120px;
+}
+.footer-container-up {
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(65, 63, 63);
+}
+.up-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(90deg, #9e3cf4 0%, #5706f9, #932fea);
+}
+.up-text p{
+  color: #403F3F;
+  margin-bottom: 15px;
+}
+.up-img {
+  display: flex;
+  gap: 30px;
+}
+.up-img div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-button {
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #8e2de2 0%, #4a00e0 100.02%)
+  );
+  transition: 1s;
+}
+.footer-button:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+.footer-container-down{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 200px;
+}
+.footer-container-down div p{
+  margin-bottom: 5px;
+  color: #403F3F;
+
+}
